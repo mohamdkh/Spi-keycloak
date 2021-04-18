@@ -4,9 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * @author Niko Köbler, http://www.n-k.de, @dasniko
- */
+
 class DemoRepository {
 
     private final List<DemoUser> users;
