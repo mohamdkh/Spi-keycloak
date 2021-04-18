@@ -14,12 +14,13 @@ class DemoRepository {
     DemoRepository() {
         Long created = System.currentTimeMillis();
         users = Arrays.asList(
-                new DemoUser("1", "Fred", "Flintstone", true, created),
-                new DemoUser("2", "Wilma", "Flintstone", true, created),
-                new DemoUser("3", "Pebbles", "Flintstone", true, created),
-                new DemoUser("4", "Barney", "Rubble", true, created),
-                new DemoUser("5", "Betty", "Rubble", true, created),
-                new DemoUser("6", "Bam Bam", "Rubble", false, created)
+                new DemoUser("1", "Ali", "Ali", true, created),
+                new DemoUser("2", "mohamed", "mohamed", true, created),
+                new DemoUser("3", "khafchrait", "khafchrait", true, created),
+                new DemoUser("4", "user", "user", true, created),
+                new DemoUser("5", "user2", "user2", true, created),
+                new DemoUser("6", "user5", "user5", false, created),
+                new DemoUser("6", "user66", "user66", false, created)
         );
     }
 

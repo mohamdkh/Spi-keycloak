@@ -1,10 +1,7 @@
 package dasniko.keycoak.user;
 
-/**
- * @author Niko Köbler, http://www.n-k.de, @dasniko
- */
-public class DemoUser {
 
+public class DemoUser {
     private String id;
     private String username;
     private String email;
